@@ -10,7 +10,6 @@ function init() {
       if(key === code.length){
         alert("I'M 38")
     }
-    alert('HEY')
   })
 }
 init()
