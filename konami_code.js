@@ -8,5 +8,5 @@ function init() {
     alert('HEY')
   })
 }
-innit()
+init()
 
