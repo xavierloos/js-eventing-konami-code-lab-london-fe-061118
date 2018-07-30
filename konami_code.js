@@ -6,6 +6,7 @@ function init() {
   
   body.addEventListener('keydown', 
     function (event){
+      const key = parseInt(e.detail || e.which)
       if(body == 38){
         alert("I'M 38")
     }
