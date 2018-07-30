@@ -4,7 +4,8 @@ function init() {
   // your code here
   const body = document.querySelector('body')
   
-  body.addEventListener('keydown', function(event){
+  body.addEventListener('keydown', 
+    function(event){
     if(code == keydown){
       alert("I'M 38")
     }
