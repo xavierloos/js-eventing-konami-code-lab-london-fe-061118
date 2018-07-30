@@ -6,8 +6,8 @@ function init() {
   
   body.addEventListener('keydown', 
     function(event){
-    if(code == keydown){
-      alert("I'M 38")
+      if(body == 38){
+        alert("I'M 38")
     }
     alert('HEY')
   })
