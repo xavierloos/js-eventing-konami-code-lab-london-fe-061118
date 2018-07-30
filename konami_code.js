@@ -7,7 +7,7 @@ function init() {
   body.addEventListener('keydown', 
     function (event){
       const key = parseInt(e.detail || e.which)
-      if(body == 38){
+      if(key === code.length){
         alert("I'M 38")
     }
     alert('HEY')
