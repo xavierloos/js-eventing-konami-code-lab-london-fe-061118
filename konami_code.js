@@ -12,5 +12,9 @@ function init() {
         
       } 
       
-    } }) } init()
+    } 
+    
+  }) 
+} 
+init()
 
