@@ -5,7 +5,7 @@ function init() {
   const body = document.querySelector('body')
   
   body.addEventListener('keydown', 
-    function (event){
+    function pressKey (e){
       const key = parseInt(e.detail || e.which)
       if(key === code.length){
         alert("I'M 38")
