@@ -5,7 +5,7 @@ function init() {
   const body = document.querySelector('body')
   
   body.addEventListener('keydown', 
-    function(event){
+    function onKey(e){
       if(body == 38){
         alert("I'M 38")
     }
