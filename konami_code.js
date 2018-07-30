@@ -1,8 +1,5 @@
-const code = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65]
- 
-function init() {
-  // your code here
-  code.addEventListener('keydown'){
-    alert('HEY')
-  }
-}
+
+document.addEventListener('keydown', (event) => {
+  const keyName = event.key;
+  alert('keydown event\n\n' + 'key: ' + keyName);
+});
