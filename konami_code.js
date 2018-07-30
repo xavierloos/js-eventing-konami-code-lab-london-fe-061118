@@ -1,4 +1,11 @@
-
+const code = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65]
+ 
+function init() {
+  // your code here
+  code.addEventListener('keydown'){
+    alert('HEY')
+  }
+}
 const alphabet = [65, 66, 67];
  
 // Keep track of index outside of the event handler.
